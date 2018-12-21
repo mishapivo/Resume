@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 5.0.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2018-12-14 16:00:22+0000\n"
+"PO-Revision-Date: 2018-12-18 00:12:15+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -26,13 +26,13 @@ msgctxt "default GMT offset or timezone string"
 msgid "0"
 msgstr "3"
 
-#: wp-admin/includes/class-wp-screen.php:282 wp-admin/post.php:20
-msgid "A post ID mismatch has been detected."
-msgstr "Найдено расхождение ID записи."
-
 #: wp-admin/post.php:44
 msgid "A post type mismatch has been detected."
 msgstr "Обнаружено несовпадение типа записи."
+
+#: wp-admin/includes/class-wp-screen.php:282 wp-admin/post.php:20
+msgid "A post ID mismatch has been detected."
+msgstr "Обнаружено несовпадение ID записи."
 
 #: wp-admin/includes/template.php:1026
 msgid "This meta box isn't compatible with the block editor."
@@ -97,150 +97,150 @@ msgctxt "CSS Font Family for Editor Font"
 msgid "Noto Serif"
 msgstr "Noto Serif"
 
-#: wp-admin/about.php:440
+#: wp-admin/about.php:458
 msgid "Note to users of assistive technology: if you experience usability issues with the block editor, we recommend you continue to use the Classic Editor."
 msgstr "Заметка для пользователей вспомогательных технологий:  Если у вас возникнут сложности в использовании редактора блоков, мы рекомендуем продолжать использовать классический редактор."
 
-#: wp-admin/about.php:439
+#: wp-admin/about.php:457
 msgid "The Classic Editor plugin restores the previous WordPress editor and the Edit Post screen. It lets you keep using plugins that extend it, add old-style meta boxes, or otherwise depend on the previous editor. To install, visit your plugins page and click the &#8220;Install Now&#8221; button next to &#8220;Classic Editor&#8221;. After the plugin finishes installing, click &#8220;Activate&#8221;. That’s it!"
 msgstr "Плагин Classic Editor оставляет старый вариант редактора WordPress и экрана редактирования записи. Он позволяет использовать расширяющие его плагины, добавлять поля метаданных в старом стиле или иные вещи, зависимые от старого редактора. Для его установки зайдите на страницу плагинов и нажмите на кнопку &#8220;Установить&#8221; рядом с &#8220;Classic Editor&#8221;. После установки нажмите &#8220;Активировать&#8221;. Всё!"
 
-#: wp-admin/about.php:414
+#: wp-admin/about.php:432
 msgid "Learn how to get started"
 msgstr "Узнайте как начать"
 
-#: wp-admin/about.php:423
+#: wp-admin/about.php:441
 msgid "Keep it Classic"
 msgstr "Оставить классику"
 
-#: wp-admin/about.php:408
+#: wp-admin/about.php:426
 msgid "The new block paradigm opens up a path of exploration and imagination when it comes to solving user needs. With the unified block insertion flow, it&#8217;s easier for your clients and customers to find and use blocks for all types of content. Developers can focus on executing their vision and providing rich editing experiences, rather than fussing with difficult APIs."
 msgstr "Новая концепция блоков открывает путь исследованию и воображению при выполнении потребностей пользователя. С универсальностью блоков становится намного проще найти и использовать блоки для любого типа содержимого. Разработчики могут сфокусироваться на реализации цели и пользовательского опыта, вместо того, чтобы разбираться со сложными API."
 
-#: wp-admin/about.php:438
+#: wp-admin/about.php:456
 msgid "Prefer to stick with the familiar Classic Editor? No problem! Support for the Classic Editor plugin will remain in WordPress through 2021."
 msgstr "Предпочитаете остаться со старым, добрым классическим редактором? Без проблем! Поддержка плагина Classic Editor останется в WordPress до 2021 года включительно."
 
-#: wp-admin/about.php:400
+#: wp-admin/about.php:418
 msgid "Take advantage of a wide collection of APIs and interface components to easily create blocks with intuitive controls for your clients. Utilizing these components not only speeds up development work but also provide a more consistent, usable, and accessible interface to all users."
 msgstr "Используйте преимущества коллекции API и компонентов интерфейса для легкого создания блоков с интуитивным управлением для ваших пользователей. Используя эти компоненты, вы не только ускорите процесс разработки, но и предоставите более целостный, удобный и доступный интерфейс для всех пользователей."
 
-#: wp-admin/about.php:399
+#: wp-admin/about.php:417
 msgid "Compose"
 msgstr "Скомпоновать"
 
-#: wp-admin/about.php:392
+#: wp-admin/about.php:410
 msgid "Blocks provide a comfortable way for users to change content directly, while also ensuring the content structure cannot be easily disturbed by accidental code edits. This allows the developer to control the output, building polished and semantic markup that is preserved through edits and not easily broken."
 msgstr "Блоки предоставляют удобный способ для пользователей напрямую изменять содержимое с гарантией, что при случайном редактировании кода структура останется прежней. Это позволяет разработчикам контролировать результат, создавая отполированную семантическую верстку, которая сохранится при редактировании и не сломается легко."
 
-#: wp-admin/about.php:391
+#: wp-admin/about.php:409
 msgid "Protect"
 msgstr "Защитить"
 
-#: wp-admin/about.php:372
+#: wp-admin/about.php:390
 msgid "Give Twenty Nineteen a try"
 msgstr "Попробуйте Twenty Nineteen"
 
-#: wp-admin/about.php:365
+#: wp-admin/about.php:383
 msgid "Twenty Nineteen is designed to work for a wide variety of use cases. Whether you’re running a photo blog, launching a new business, or supporting a non-profit, Twenty Nineteen is flexible enough to fit your needs."
 msgstr "Тема Twenty Nineteen создана для универсального использования. Неважно, создаете ли вы фотоблог, запускаете новый бизнес или некоммерческий сайт, Twenty Nineteen достаточно гибкая, чтобы соответствовать вашим потребностям."
 
-#: wp-admin/about.php:364
+#: wp-admin/about.php:382
 msgid "Versatile design for all sites"
 msgstr "Универсальный дизайн для всех сайтов"
 
-#: wp-admin/about.php:360
+#: wp-admin/about.php:378
 msgid "Featuring ample whitespace, and modern sans-serif headlines paired with classic serif body text, Twenty Nineteen is built to be beautiful on the go. It uses system fonts to increase loading speed. No more long waits on slow networks!"
 msgstr "С просторными интервалами, современными шрифтами с засечками для заголовков и классическими без засечек для содержимого, Twenty NIneteen создана быть красивой. Она использует системные шрифты для ускорения загрузки. Быстро, даже с медленным подключением!"
 
-#: wp-admin/about.php:352
+#: wp-admin/about.php:370
 msgid "Twenty Nineteen features custom styles for the blocks available by default in 5.0. It makes extensive use of editor styles throughout the theme. That way, what you create in your content editor is what you see on the front of your site."
 msgstr "Twenty Nineteen предоставляет произвольные стили для блоков доступных в WordPress 5.0. Это позволяет широко использовать стили редактора в теме, таким образом, что вы создадите в редакторе, то же самое вы увидите и на сайте."
 
-#: wp-admin/about.php:359
+#: wp-admin/about.php:377
 msgid "Simple, type-driven layout"
 msgstr "Простая, типографическая вёрстка"
 
-#: wp-admin/about.php:341
+#: wp-admin/about.php:359
 msgid "Introducing Twenty Nineteen, a new default theme that shows off the power of the new editor."
 msgstr "Представляем Twenty Nineteen, новую тему по умолчанию, демонстрирующую мощь нового редактора."
 
-#: wp-admin/about.php:351
+#: wp-admin/about.php:369
 msgid "Designed for the block editor"
 msgstr "Создана для редактора блоков"
 
-#: wp-admin/about.php:300
-msgid "This new editing experience provides a more consistent treatment of design as well as content. If you&#8217;re building client sites, you can create reusable blocks. This lets your clients add new content anytime, while still maintaining a consistent look and feel."
-msgstr "Новый опыт редактирования представляет более целостное обращение с дизайном и содержимым. Если вы создаете сайты для клиентов, вы можете создавать многократно используемые блоки. Они позволят вашим клиентам легко добавлять новое содержимое, с сохранением целостности вида и восприятия сайта."
-
-#: wp-admin/about.php:312
+#: wp-admin/about.php:330
 msgid "Build your first post"
 msgstr "Создайте свою первую запись"
 
-#: wp-admin/about.php:322
+#: wp-admin/about.php:340
 msgid "A Stunning New Default Theme"
 msgstr "Потрясающая новая тема по умолчанию"
 
-#: wp-admin/about.php:335
+#: wp-admin/about.php:318
+msgid "This new editing experience provides a more consistent treatment of design as well as content. If you&#8217;re building client sites, you can create reusable blocks. This lets your clients add new content anytime, while still maintaining a consistent look and feel."
+msgstr "Новый опыт редактирования представляет более целостное обращение с дизайном и содержимым. Если вы создаете сайты для клиентов, вы можете создавать многократно используемые блоки. Они позволят вашим клиентам легко добавлять новое содержимое, с сохранением целостности вида и восприятия сайта."
+
+#: wp-admin/about.php:353
 msgid "The front-end of Twenty Nineteen on the left, and how it looks in the editor on the right."
 msgstr "То, что вы увидите на сайте с Twenty Nineteen - слева, а то, что вы увидите в редакторе - справа."
 
-#: wp-admin/about.php:146
+#: wp-admin/about.php:164
 msgid "We have tons of blocks available by default, and more get added by the community every day. Here are a few of the blocks to help you get started:"
 msgstr "Мы предоставили уйму блоков по умолчанию, и еще больше добавляется сообществом, каждый день. Вот некоторые блоки для начала:"
 
-#: wp-admin/about.php:299
+#: wp-admin/about.php:317
 msgid "Freedom to Build, Freedom to Write"
 msgstr "Свобода создать, свобода написать"
 
-#: wp-admin/about.php:140
+#: wp-admin/about.php:158
 msgid "The new block-based editor won&#8217;t change the way any of your content looks to your visitors. What it will do is let you insert any type of multimedia in a snap and rearrange to your heart&#8217;s content. Each piece of content will be in its own block; a distinct wrapper for easy maneuvering. If you&#8217;re more of an HTML and CSS sort of person, then the blocks won&#8217;t stand in your way. WordPress is here to simplify the process, not the outcome."
 msgstr "Новый, основанный на блоках, редактор не изменит вид отображения содержимого для посетителей. То, что он сделает, так это позволит вам легко вставить любой тип мультимедиа и перейти к подаче основного содержимого. Каждый элемент содержимого будет в собственном блоке, что даст вам свободу для маневров. Если же вы любите HTML и CSS, то блоки не станут вам мешать. WordPress упрощает процесс, а не результат."
 
-#: wp-admin/about.php:144 wp-admin/about.php:304
+#: wp-admin/about.php:162 wp-admin/about.php:322
 msgid "Your browser doesn&#8217;t support HTML5 video. Here is a %1$slink to the video%2$s instead."
 msgstr "Ваш обозреватель не поддерживает HTML5 видео. Вот %1$sссылка на видеофайл%2$s."
 
-#: wp-admin/about.php:105
+#: wp-admin/about.php:123
 msgid "Do more with fewer plugins."
 msgstr "Делайте больше, с меньшим числом плагинов."
 
-#: wp-admin/about.php:114
+#: wp-admin/about.php:132
 msgid "Create modern, multimedia-heavy layouts."
 msgstr "Создавайте современные, богатые мультимедиа макеты."
 
-#: wp-admin/about.php:123
+#: wp-admin/about.php:141
 msgid "Work across all screen sizes and devices."
 msgstr "Работает со всеми устройствами и размерами экранов."
 
-#: wp-admin/about.php:132
+#: wp-admin/about.php:150
 msgid "Trust that your editor looks like your website."
 msgstr "Будьте уверены, что ваш редактор выглядит также, как и сайт."
 
-#: wp-admin/about.php:139
+#: wp-admin/about.php:157
 msgid "Building with Blocks"
 msgstr "Создавайте из блоков"
 
-#: wp-admin/about.php:94
+#: wp-admin/about.php:112
 msgid "You&#8217;ve successfully upgraded to WordPress 5.0! We’ve made some big changes to the editor. Our new block-based editor is the first step toward an exciting new future with a streamlined editing experience across your site. You’ll have more flexibility with how content is displayed, whether you are building your first site, revamping your blog, or write code for a living."
 msgstr "Вы успешно обновили сайт до WordPress 5.0! Мы внесли огромные изменения в редактор. Наш новый блочный редактор - первый шаг в захватывающее будущее с рациональным целостным опытом редактирования сайта. У вас станет больше гибкости по отображению содержимого, неважно, создаете ли вы первый свой сайт, освежаете блог или создаете код для жизни."
-
-#: wp-admin/about.php:50
-msgid "Learn how to keep using the old editor."
-msgstr "Узнайте как продолжить использовать старый редактор."
 
 #. translators: first post content, %s: site link
 #: wp-admin/includes/upgrade.php:178
 msgid "Welcome to WordPress. This is your first post. Edit or delete it, then start writing!"
 msgstr "Добро пожаловать в WordPress. Это ваша первая запись. Отредактируйте или удалите ее, затем начинайте создавать!"
 
-#: wp-admin/about.php:79
+#: wp-admin/about.php:97
 msgid "Say Hello to the New Editor"
 msgstr "Поприветствуйте новый редактор"
 
 #: wp-admin/credits.php:23 wp-admin/freedoms.php:25 wp-admin/about.php:26
 msgid "Thank you for updating to the latest version! WordPress %s introduces a robust new content creation experience."
 msgstr "Спасибо за обновление до последней версии! WordPress %s представляет вам новые мощные возможности по созданию содержимого."
+
+#: wp-admin/about.php:50
+msgid "Learn how to keep using the old editor."
+msgstr "Узнайте, как продолжить использовать старый редактор."
 
 #. translators: first page content
 #: wp-admin/includes/upgrade.php:247
@@ -266,10 +266,6 @@ msgstr "...или так:"
 #: wp-admin/includes/upgrade.php:232
 msgid "This is an example page. It's different from a blog post because it will stay in one place and will show up in your site navigation (in most themes). Most people start with an About page that introduces them to potential site visitors. It might say something like this:"
 msgstr "Это пример страницы. От записей в блоге она отличается тем, что остаётся на одном месте и отображается в меню сайта (в большинстве тем). На странице &laquo;Детали&raquo; владельцы сайтов обычно рассказывают о себе потенциальным посетителям. Например, так:"
-
-#: wp-admin/includes/post.php:2227
-msgid "This action is still supported in the classic editor, but is deprecated in the block editor."
-msgstr "Это действие по-прежнему поддерживается в классическом редакторе, но устарело в редакторе блоков."
 
 #. translators: %s: post title
 #: wp-admin/includes/class-wp-posts-list-table.php:1308
@@ -342,7 +338,7 @@ msgstr "Детали"
 msgid "Privacy Policy"
 msgstr "Политика конфиденциальности"
 
-#: wp-admin/about.php:443
+#: wp-admin/about.php:461
 msgid "Install the Classic Editor"
 msgstr "Установить Classic Editor"
 
@@ -1235,7 +1231,7 @@ msgstr "Скачать персональные данные"
 msgid "Force Erase Personal Data"
 msgstr "Принудительное удаление персональных данных"
 
-#: wp-admin/includes/plugin-install.php:595
+#: wp-admin/includes/plugin-install.php:596
 msgid "Requires PHP Version:"
 msgstr "Требуемая версия PHP:"
 
@@ -1319,7 +1315,7 @@ msgstr "https://codex.wordpress.org/%D0%A0%D0%B0%D0%B7%D0%BC%D0%B5%D1%89%D0%B0%D
 msgid "Enter the address here if you <a href=\"%s\">want your site home page to be different from your WordPress installation directory</a>."
 msgstr "Если вы хотите, чтобы адрес сайта <a href=\"%s\">отличался от директории установки WordPress</a>, введите адрес здесь."
 
-#: wp-admin/about.php:381
+#: wp-admin/about.php:399
 msgid "Developer Happiness"
 msgstr "Радость разработчикам"
 
@@ -1520,12 +1516,12 @@ msgid "%s (The year of the post, four digits, for example 2004.)"
 msgstr "%s (год записи, 4 цифры, например 2004.)"
 
 #. translators: %s: user's display name
-#: wp-admin/includes/post.php:1625
+#: wp-admin/includes/post.php:1631
 msgid "%s is already editing this post. Do you want to take over?"
 msgstr "%s уже редактирует эту запись. Вы хотите перехватить?"
 
 #. translators: %s: user's display name
-#: wp-admin/includes/post.php:1628
+#: wp-admin/includes/post.php:1634
 msgid "%s is already editing this post."
 msgstr "%s уже редактирует эту запись."
 
@@ -1533,7 +1529,7 @@ msgstr "%s уже редактирует эту запись."
 msgid "Theme Installation"
 msgstr "Установка темы"
 
-#: wp-admin/includes/plugin-install.php:602
+#: wp-admin/includes/plugin-install.php:603
 msgid "Active Installations:"
 msgstr "Активные установки:"
 
@@ -1541,7 +1537,7 @@ msgstr "Активные установки:"
 msgid "Custom installation script."
 msgstr "Пользовательский скрипт установки."
 
-#: wp-admin/includes/plugin-install.php:522 wp-admin/update.php:123
+#: wp-admin/includes/plugin-install.php:523 wp-admin/update.php:123
 msgid "Plugin Installation"
 msgstr "Установка плагина"
 
@@ -1791,7 +1787,7 @@ msgid "(%s ratings)"
 msgstr "(%s рейтинг)"
 
 #: wp-admin/includes/class-wp-plugin-install-list-table.php:608
-#: wp-admin/includes/plugin-install.php:606
+#: wp-admin/includes/plugin-install.php:607
 msgctxt "Active plugin installations"
 msgid "Less Than 10"
 msgstr "Менее 10"
@@ -1801,7 +1797,7 @@ msgid "Sorry, you are not allowed to attach files to this post."
 msgstr "Извините, Вам не разрешено делать вложения файлов к этой записи."
 
 #: wp-admin/includes/plugin-install.php:239
-#: wp-admin/includes/plugin-install.php:612 wp-admin/freedoms.php:84
+#: wp-admin/includes/plugin-install.php:613 wp-admin/freedoms.php:84
 #: wp-admin/plugins.php:418 wp-admin/plugin-install.php:82
 msgid "https://wordpress.org/plugins/"
 msgstr "https://ru.wordpress.org/plugins/"
@@ -2468,11 +2464,11 @@ msgstr "Константа %s не может быть активна при у�
 msgid "WordPress has been installed. Thank you, and enjoy!"
 msgstr "WordPress установлен. Желаем успешной работы!"
 
-#: wp-admin/includes/plugin-install.php:626
+#: wp-admin/includes/plugin-install.php:627
 msgid "Reviews"
 msgstr "Отзывы"
 
-#: wp-admin/includes/plugin-install.php:627
+#: wp-admin/includes/plugin-install.php:628
 msgid "Read all reviews on WordPress.org or write your own!"
 msgstr "Посмотрите все отзывы на WordPress.org или напишите свой!"
 
@@ -2482,7 +2478,7 @@ msgstr "Архив темы"
 
 #. translators: 1: number of stars (used to determine singular/plural), 2:
 #. number of reviews
-#: wp-admin/includes/plugin-install.php:633
+#: wp-admin/includes/plugin-install.php:634
 msgid "Reviews with %1$d star: %2$s. Opens in a new window."
 msgid_plural "Reviews with %1$d stars: %2$s. Opens in a new window."
 msgstr[0] "Отзывов с оценкой в %1$d звезду: %2$s. Ссылка откроется в новой вкладке."
@@ -2493,7 +2489,7 @@ msgstr[2] "Отзывов с оценкой в %1$d звёзд: %2$s. Ссылк
 msgid "Attach to existing content"
 msgstr "Прикрепить к существующей записи"
 
-#: wp-admin/includes/post.php:1451
+#: wp-admin/includes/post.php:1457
 msgid "Click the image to edit or update"
 msgstr "Нажмите на изображение, чтобы изменить или обновить его"
 
@@ -2748,7 +2744,7 @@ msgid "Welcome to %s. This is your first post. Edit or delete it, then start blo
 msgstr "Добро пожаловать на сайт %s. Это ваша первая запись. Отредактируйте или удалите её, затем пишите!"
 
 #. translators: %s: WordPress version number
-#: wp-admin/about.php:572
+#: wp-admin/about.php:590
 msgid "<strong>Version %s</strong> addressed one security issue."
 msgstr "В <strong>версии %s</strong> решена проблема с безопасностью."
 
@@ -2765,15 +2761,15 @@ msgstr "Аватар можно изменить на сайте <a href=\"%s\">
 msgid "Profile Picture"
 msgstr "Аватар"
 
-#: wp-admin/about.php:64 wp-admin/about.php:569
+#: wp-admin/about.php:64 wp-admin/about.php:587
 msgid "Maintenance and Security Releases"
 msgstr "Технические обновления безопасности"
 
-#: wp-admin/about.php:566
+#: wp-admin/about.php:584
 msgid "Security Releases"
 msgstr "Обновления безопасности"
 
-#: wp-admin/about.php:563
+#: wp-admin/about.php:581
 msgid "Maintenance Releases"
 msgstr "Технические обновления"
 
@@ -3035,11 +3031,11 @@ msgstr "Скачать версию %s"
 msgid "Toggle panel: %s"
 msgstr "Показать/скрыть панель: %s"
 
-#: wp-admin/includes/post.php:1666
+#: wp-admin/includes/post.php:1672
 msgid "Saving revision&hellip;"
 msgstr "Сохранение редакции&hellip;"
 
-#: wp-admin/includes/post.php:1377
+#: wp-admin/includes/post.php:1383
 msgid "Edit permalink"
 msgstr "Изменить постоянную ссылку"
 
@@ -3798,7 +3794,7 @@ msgid "Plugins updated successfully."
 msgstr "Плагины успешно обновлены."
 
 #: wp-admin/includes/class-wp-plugin-install-list-table.php:606
-#: wp-admin/includes/plugin-install.php:604
+#: wp-admin/includes/plugin-install.php:605
 msgctxt "Active plugin installations"
 msgid "1+ Million"
 msgstr "Более миллиона"
@@ -4275,7 +4271,7 @@ msgstr "<strong>Несовместим</strong> с вашей версией Wor
 msgid "<strong>Compatible</strong> with your version of WordPress"
 msgstr "<strong>Совместим</strong> с вашей версией WordPress."
 
-#: wp-admin/includes/plugin-install.php:640
+#: wp-admin/includes/plugin-install.php:641
 msgid "%d star"
 msgid_plural "%d stars"
 msgstr[0] "%d звезда"
@@ -4374,16 +4370,16 @@ msgstr "Недавно обновлённые"
 msgid "The WordPress team is willing to help you. Forward this email to %s and the team will work with you to make sure your site is working."
 msgstr "Команда WordPress предлагает вам свою помощь. Перешлите это письмо на %s, и мы свяжемся с вами, чтобы обеспечить работоспособность вашего сайта."
 
-#: wp-admin/includes/plugin-install.php:616
-#: wp-admin/includes/plugin-install.php:670
+#: wp-admin/includes/plugin-install.php:617
+#: wp-admin/includes/plugin-install.php:671
 msgid "Donate to this plugin &#187;"
 msgstr "Сделать пожертвование &#187;"
 
-#: wp-admin/includes/plugin-install.php:650
+#: wp-admin/includes/plugin-install.php:651
 msgid "Contributors"
 msgstr "Участники разработки"
 
-#: wp-admin/includes/plugin-install.php:499
+#: wp-admin/includes/plugin-install.php:500
 msgctxt "Plugin installer section title"
 msgid "Reviews"
 msgstr "Отзывы"
@@ -5386,7 +5382,7 @@ msgstr "Аудиоформат:"
 msgid "Audio Codec:"
 msgstr "Аудиокодек:"
 
-#: wp-admin/includes/post.php:1667
+#: wp-admin/includes/post.php:1673
 msgid "Your latest changes were saved as a revision."
 msgstr "Ваши последние изменения сохранены в виде редакции."
 
@@ -6122,7 +6118,7 @@ msgstr "Плагин"
 
 #: wp-admin/includes/class-wp-themes-list-table.php:230
 #: wp-admin/includes/class-wp-theme-install-list-table.php:419
-#: wp-admin/includes/plugin-install.php:573
+#: wp-admin/includes/plugin-install.php:574
 msgid "Version:"
 msgstr "Версия:"
 
@@ -6454,32 +6450,32 @@ msgstr "Чтобы разрешить использование этой стр
 msgid "No comments awaiting moderation."
 msgstr "Нет комментариев, ожидающих проверки."
 
-#: wp-admin/includes/plugin-install.php:494
+#: wp-admin/includes/plugin-install.php:495
 msgctxt "Plugin installer section title"
 msgid "Description"
 msgstr "Описание"
 
-#: wp-admin/includes/plugin-install.php:495
+#: wp-admin/includes/plugin-install.php:496
 msgctxt "Plugin installer section title"
 msgid "Installation"
 msgstr "Установка"
 
-#: wp-admin/includes/plugin-install.php:496
+#: wp-admin/includes/plugin-install.php:497
 msgctxt "Plugin installer section title"
 msgid "FAQ"
 msgstr "FAQ"
 
-#: wp-admin/includes/plugin-install.php:497
+#: wp-admin/includes/plugin-install.php:498
 msgctxt "Plugin installer section title"
 msgid "Screenshots"
 msgstr "Скриншоты"
 
-#: wp-admin/includes/plugin-install.php:498
+#: wp-admin/includes/plugin-install.php:499
 msgctxt "Plugin installer section title"
 msgid "Changelog"
 msgstr "Изменения"
 
-#: wp-admin/includes/plugin-install.php:500
+#: wp-admin/includes/plugin-install.php:501
 msgctxt "Plugin installer section title"
 msgid "Other Notes"
 msgstr "Заметки"
@@ -6488,7 +6484,7 @@ msgstr "Заметки"
 msgid "You should update your web.config now."
 msgstr "Теперь необходимо обновить файл web.config."
 
-#: wp-admin/includes/plugin-install.php:614
+#: wp-admin/includes/plugin-install.php:615
 msgid "Plugin Homepage &#187;"
 msgstr "Страница плагина &#187;"
 
@@ -6572,7 +6568,7 @@ msgid "Show Toolbar when viewing site"
 msgstr "Показывать верхнюю панель при просмотре сайта"
 
 #. translators: 1: WordPress version number, 2: plural number of bugs.
-#: wp-admin/about.php:577
+#: wp-admin/about.php:69 wp-admin/about.php:595
 msgid "<strong>Version %1$s</strong> addressed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed %2$s bugs."
 msgstr[0] "В <strong>версии %1$s</strong> исправлена %2$s ошибка."
@@ -6581,7 +6577,7 @@ msgstr[2] "В <strong>версии %1$s</strong> исправлены %2$s ош�
 
 #. translators: 1: WordPress version number, 2: plural number of bugs. Singular
 #. security issue.
-#: wp-admin/about.php:581
+#: wp-admin/about.php:599
 msgid "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bugs."
 msgstr[0] "В <strong>версии %1$s</strong> решена проблема с безопасностью и исправлена %2$s ошибка."
@@ -6590,7 +6586,7 @@ msgstr[2] "В <strong>версии %1$s</strong> решена проблема �
 
 #. translators: 1: WordPress version number, 2: plural number of bugs. More
 #. than one security issue.
-#: wp-admin/about.php:585
+#: wp-admin/about.php:603
 msgid "<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bugs."
 msgstr[0] "В <strong>версии %1$s</strong> решены несколько проблем с безопасностью и исправлена %2$s ошибка."
@@ -6598,7 +6594,7 @@ msgstr[1] "В <strong>версии %1$s</strong> решены несколько
 msgstr[2] "В <strong>версии %1$s</strong> решены несколько проблем с безопасностью и исправлены %2$s ошибок."
 
 #. translators: %s: Codex URL
-#: wp-admin/about.php:72 wp-admin/about.php:589
+#: wp-admin/about.php:80 wp-admin/about.php:90 wp-admin/about.php:607
 msgid "For more information, see <a href=\"%s\">the release notes</a>."
 msgstr "Дополнительную информацию можно найти в <a href=\"%s\">заметке о выпуске</a>."
 
@@ -6610,20 +6606,20 @@ msgstr "Добро пожаловать в консоль WordPress! Этот э
 msgid "What&#8217;s New"
 msgstr "Что нового"
 
-#: wp-admin/about.php:562
+#: wp-admin/about.php:580
 msgid "Maintenance Release"
 msgstr "Техническое обновление"
 
-#: wp-admin/about.php:565
+#: wp-admin/about.php:583
 msgid "Security Release"
 msgstr "Обновление безопасности"
 
-#: wp-admin/about.php:568
+#: wp-admin/about.php:586
 msgid "Maintenance and Security Release"
 msgstr "Техническое обновление безопасности"
 
 #. translators: %s: WordPress version number
-#: wp-admin/about.php:68 wp-admin/about.php:574
+#: wp-admin/about.php:86 wp-admin/about.php:592
 msgid "<strong>Version %s</strong> addressed some security issues."
 msgstr "В <strong>версии %s</strong> решены несколько проблем с безопасностью."
 
@@ -6635,7 +6631,7 @@ msgstr "На этом экране можно выбрать структуру 
 msgid "Welcome to WordPress %1$s. <a href=\"%2$s\">Learn more</a>."
 msgstr "Добро пожаловать в WordPress %1$s. <a href=\"%2$s\">Узнать больше</a>."
 
-#: wp-admin/about.php:455
+#: wp-admin/about.php:473
 msgid "Return to Updates"
 msgstr "Вернуться на страницу &laquo;Обновления&raquo;"
 
@@ -6907,11 +6903,11 @@ msgstr "Поскольку это сеть сайтов, можно добавл
 msgid "Welcome to WordPress %s"
 msgstr "Добро пожаловать в WordPress %s"
 
-#: wp-admin/about.php:455
+#: wp-admin/about.php:473
 msgid "Return to Dashboard &rarr; Updates"
 msgstr "Вернуться на страницу &laquo;Консоль&raquo; &rarr; &laquo;Обновления&raquo;"
 
-#: wp-admin/about.php:458
+#: wp-admin/about.php:476
 msgid "Go to Dashboard &rarr; Home"
 msgstr "Перейти на страницу &laquo;Консоль&raquo; &rarr; &laquo;Главная&raquo;"
 
@@ -8722,7 +8718,7 @@ msgstr "Вы уверены, что хотите удалить эти файл�
 msgid "Inactive:"
 msgstr "Неактивен:"
 
-#: wp-admin/about.php:458
+#: wp-admin/about.php:476
 msgid "Go to Dashboard"
 msgstr "Перейти на страницу &laquo;Консоль&raquo;"
 
@@ -9785,7 +9781,7 @@ msgstr "Позиция"
 msgid "Save Widget"
 msgstr "Сохранить виджет"
 
-#: wp-admin/includes/misc.php:1084 wp-admin/includes/post.php:1827
+#: wp-admin/includes/misc.php:1084 wp-admin/includes/post.php:1833
 #: wp-admin/widgets.php:342
 msgid "Error while saving."
 msgstr "Ошибка при сохранении."
@@ -9893,7 +9889,7 @@ msgstr "привет-мир"
 msgid "Visit"
 msgstr "Перейти"
 
-#: wp-admin/about.php:292
+#: wp-admin/about.php:310
 msgid "More"
 msgstr "Больше"
 
@@ -10010,7 +10006,7 @@ msgstr "Прилепленная запись"
 msgid "Sorry, you are not allowed to edit this attachment."
 msgstr "Извините, вам не разрешено редактировать это вложение."
 
-#: wp-admin/edit-tags.php:156 wp-admin/includes/post.php:1833
+#: wp-admin/edit-tags.php:156 wp-admin/includes/post.php:1839
 #: wp-admin/includes/class-wp-screen.php:282 wp-admin/async-upload.php:47
 #: wp-admin/post.php:20 wp-admin/post.php:44 wp-admin/post.php:123
 #: wp-admin/term.php:38 wp-admin/media-upload.php:46
@@ -11218,51 +11214,51 @@ msgstr "Поиск плагинов"
 msgid "Plugin zip file"
 msgstr "Архив плагина"
 
-#: wp-admin/includes/plugin-install.php:710
+#: wp-admin/includes/plugin-install.php:711
 msgid "Install Update Now"
 msgstr "Установить обновление"
 
 #. translators: %s: Plugin version
-#: wp-admin/includes/plugin-install.php:715
+#: wp-admin/includes/plugin-install.php:716
 msgid "Newer Version (%s) Installed"
 msgstr "Установлена более новая версия (%s)"
 
-#: wp-admin/includes/plugin-install.php:718
+#: wp-admin/includes/plugin-install.php:719
 msgid "Latest Version Installed"
 msgstr "Установлена свежая версия"
 
 #: wp-admin/includes/class-wp-plugin-install-list-table.php:601
-#: wp-admin/includes/plugin-install.php:577
+#: wp-admin/includes/plugin-install.php:578
 msgid "Last Updated:"
 msgstr "Обновление:"
 
-#: wp-admin/includes/plugin-install.php:585
+#: wp-admin/includes/plugin-install.php:586
 msgid "Requires WordPress Version:"
 msgstr "Требуемая версия WordPress:"
 
 #. translators: %s: version number
-#: wp-admin/includes/plugin-install.php:588
-#: wp-admin/includes/plugin-install.php:598
+#: wp-admin/includes/plugin-install.php:589
+#: wp-admin/includes/plugin-install.php:599
 msgid "%s or higher"
 msgstr "%s или выше"
 
-#: wp-admin/includes/plugin-install.php:592
+#: wp-admin/includes/plugin-install.php:593
 msgid "Compatible up to:"
 msgstr "Совместим вплоть до:"
 
-#: wp-admin/includes/plugin-install.php:612
+#: wp-admin/includes/plugin-install.php:613
 msgid "WordPress.org Plugin Page &#187;"
 msgstr "Страница на WordPress.org &#187;"
 
-#: wp-admin/includes/plugin-install.php:620
+#: wp-admin/includes/plugin-install.php:621
 msgid "Average Rating"
 msgstr "Средний рейтинг"
 
-#: wp-admin/includes/plugin-install.php:679
+#: wp-admin/includes/plugin-install.php:680
 msgid "<strong>Warning:</strong> This plugin has <strong>not been tested</strong> with your current version of WordPress."
 msgstr "<strong>Внимание:</strong> Этот плагин <strong>не был протестирован</strong> с вашей версией WordPress."
 
-#: wp-admin/includes/plugin-install.php:681
+#: wp-admin/includes/plugin-install.php:682
 msgid "<strong>Warning:</strong> This plugin has <strong>not been marked as compatible</strong> with your version of WordPress."
 msgstr "<strong>Внимание:</strong> Этот плагин не был помечен как <strong>совместимый</strong> с вашей версией WordPress."
 
@@ -11749,7 +11745,7 @@ msgstr[0] "%s запись обновлена."
 msgstr[1] "%s записи обновлены."
 msgstr[2] "%s записей обновлены."
 
-#: wp-admin/includes/plugin-install.php:622
+#: wp-admin/includes/plugin-install.php:623
 msgid "(based on %s rating)"
 msgid_plural "(based on %s ratings)"
 msgstr[0] "(всего %s голос)"
